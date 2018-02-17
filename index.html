@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Homepage</title>
+
+	<style type="text/css">
+		.gb_b {
+			display: inline-block;
+			outline: none;
+			vertical-align: middle;
+			border-radius: 2px;
+			box-sizing: border-box;
+			height: 30px;
+			width: 30px;
+		}
+
+		body, a, p, .h {
+			font-family: arial, sans-serif;
+			text-decoration: none;
+		}
+
+
+		.google-button {
+			line-height: normal;
+			position: relative;
+			text-align: left;
+			white-space: nowrap;
+			min-width: 225px;
+			padding-left: 30px;
+			padding-right: 30px;
+			z-index: 986;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		li {
+			padding: 2px;
+			text-decoration: none;
+			list-style: none;
+			margin: 5px;
+		}
+
+
+		.image {
+			align-content: center;
+			position: fixed;
+			top: 25%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			margin: 0 auto;
+			align-content: center;
+		}
+
+		.search {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.extra_button {
+			position: fixed;
+			top: 55%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.xtra_img {
+			position: fixed;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.footer {
+			position: fixed;
+    		bottom: 0;
+    		width: 100%;
+    		color: white;
+    		text-align: center;
+}
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav">
+		<ul>
+		  <li style="float: left;"><a href="#store">Store</a></li>
+		  <li style="float: left;"><a href="#about">About</a></li>
+		  <li style="float: right;"><a class="active" href="#gmail">Gmail</a></li>
+		  <li style="float: right;"><a class="active" href="#images">Images</a></li>
+		</ul>
+	</div>
+	<div class="google-button">
+		<a class="gb_b gb_dc" href="https://www.google.com/intl/en/options/" title="Google apps" aria-expanded="false" role="button" tabindex="0"></a>
+	</div>
+	<div class="color_1">
+		<a class="gb_b" aria-haspopup="true" role="button" tabindex="0" aria-expanded="false" aria-label="1 Google notifications" title="1 Google notifications">1</a>
+	</div>
+	<div class="image">
+		<img src="/home/ant/Pictures/google-logo.gif" alt="google-logo">
+	</div>
+	<div class="search">
+		<form action="#" method="POST" name="search">
+			<input type="search" name="googlesearch">
+			<input type="button" name="search" value="Search">
+		</form>
+	</div>
+	<div class="extra_button">
+		<input type="button" onclick="#" value="Click Me!">
+		<input type="button" onclick="#" value="Quote">
+	</div>
+	<div class="xtra_img">
+		<img src="/home/ant/Pictures/ribbon-black.png" alt="ribbon-black">
+	</div>
+	<div class="footer">
+		<ul>
+		  <li style="float: left;"><input type="button" name="Advertising" value="Advertising"></li>
+		  <li style="float: left;"><input type="button" name="Business" value="Business"></li>
+		  <li style="float: right;"><input type="button" name="Privacy" value="Privacy"></li>
+		  <li style="float: right;"><input type="button" name="Terms" value="Terms"></li>
+		  <li style="float: right;"><input type="button" name="Settings" value="Settings"></li>
+		</ul>
+	</div>
+</body>
+</html>
